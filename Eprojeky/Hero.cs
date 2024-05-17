@@ -20,7 +20,7 @@
         }
 
         Health += healingAmount;
-        Console.WriteLine($"{Name} läker {healingAmount} hp!");
-        Console.WriteLine($"{Name} har nu {Health} hp.\n");
+        Console.WriteLine($"{Name} is healing {healingAmount} hp!");
+        Console.WriteLine($"{Name} has {Health} hp.\n");
     }
 }

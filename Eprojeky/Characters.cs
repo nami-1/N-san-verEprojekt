@@ -13,5 +13,21 @@ public class Character
         Damage = damage;
     }
 
-  
+    public virtual void Attack(Character target, int accuracy)
+    {
+        Random random = new Random();
+        int chance = random.Next(1, 101); // random number generator
+
+        if (chance <= accuracy) // if the attack connects 
+        {
+            Console.WriteLine($"{Name} attacks {target.Name} and deals {Damage} damage!");
+            target.Health -= Damage; // damge dealt
+        }
+        else
+        {
+            Console.WriteLine($"{Name} missed!\n"); // if the attack misses
+        }
+
+        Console.WriteLine($"{target.Name} have {target.Health} health left.\n"); // health
+    }
 }

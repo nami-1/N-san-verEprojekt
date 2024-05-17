@@ -1,0 +1,5 @@
+c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojeky\obj\Debug\net7.0\Eprojeky.csproj.AssemblyReference.cache
+c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojeky\obj\Debug\net7.0\Eprojeky.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojeky\obj\Debug\net7.0\Eprojeky.AssemblyInfoInputs.cache
+c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojeky\obj\Debug\net7.0\Eprojeky.AssemblyInfo.cs
+c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojeky\obj\Debug\net7.0\Eprojeky.csproj.CoreCompileInputs.cache
