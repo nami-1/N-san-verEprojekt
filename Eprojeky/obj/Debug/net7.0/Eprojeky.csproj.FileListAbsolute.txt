@@ -3,3 +3,13 @@ c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojek
 c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojeky\obj\Debug\net7.0\Eprojeky.AssemblyInfoInputs.cache
 c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojeky\obj\Debug\net7.0\Eprojeky.AssemblyInfo.cs
 c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojeky\obj\Debug\net7.0\Eprojeky.csproj.CoreCompileInputs.cache
+c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojeky\bin\Debug\net7.0\Eprojeky.exe
+c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojeky\bin\Debug\net7.0\Eprojeky.deps.json
+c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojeky\bin\Debug\net7.0\Eprojeky.runtimeconfig.json
+c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojeky\bin\Debug\net7.0\Eprojeky.dll
+c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojeky\bin\Debug\net7.0\Eprojeky.pdb
+c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojeky\obj\Debug\net7.0\Eprojeky.dll
+c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojeky\obj\Debug\net7.0\refint\Eprojeky.dll
+c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojeky\obj\Debug\net7.0\Eprojeky.pdb
+c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojeky\obj\Debug\net7.0\Eprojeky.genruntimeconfig.cache
+c:\Users\namith.muttharamar1\Documents\programmering\NäsanöverEprojekt\Eprojeky\obj\Debug\net7.0\ref\Eprojeky.dll
