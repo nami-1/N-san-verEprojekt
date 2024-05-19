@@ -21,13 +21,13 @@ public class Character
         if (chance <= accuracy) // if the attack connects 
         {
             Console.WriteLine($"{Name} attacks {target.Name} and deals {Damage} damage!");
-            target.Health -= Damage; // damge dealt
+            target.Health -= Damage;  //minus the damage from the target's health
         }
         else
         {
             Console.WriteLine($"{Name} missed!\n"); // if the attack misses
         }
 
-        Console.WriteLine($"{target.Name} have {target.Health} health left.\n"); // health
+        Console.WriteLine($"{target.Name} have {target.Health} health left.\n"); // remaining health
     }
 }

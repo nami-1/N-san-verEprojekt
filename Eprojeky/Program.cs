@@ -26,14 +26,14 @@ while (player.Health > 0 && enemy.Health > 0) //when the hero and the villian is
    
     int choice;
 
-    if (!int.TryParse(Console.ReadLine(), out choice) || choice < 1 || choice > 3)
+    if (!int.TryParse(Console.ReadLine(), out choice) || choice < 1 || choice > 3)    //validate player's input and ensure it is a number between 1 and 3
     {
         Console.WriteLine("Invalid Input! Try Again!");
         // skips the loop if the player enters an incorrect value
         continue;
     }
 
-    switch (choice) // the hero attacks
+    switch (choice)  //does what the player chose
     {
         case 1:
             player.Attack(enemy, 80);
@@ -49,7 +49,7 @@ while (player.Health > 0 && enemy.Health > 0) //when the hero and the villian is
             break;
     }
 
-    if (enemy.Health <= 0) // if the villans hp is/below 0 
+    if (enemy.Health <= 0) // if the villans hp is/below 0 the game ends
     {
         Console.WriteLine("The villian is deafeated congratulations !");
         break;
