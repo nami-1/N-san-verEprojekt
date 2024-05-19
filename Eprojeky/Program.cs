@@ -12,8 +12,6 @@ class Program
         Enemy enemy = new Enemy("Villian", 150, 15);  //sets enemy health 
         
 
-        Console.WriteLine("What do you want to name the villian?");
-
 
         Console.WriteLine($"Your {player.Name} has {player.Health} hp.");
         Console.WriteLine($"{enemy.Name} has {enemy.Health} hp.\n");
