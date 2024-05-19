@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\namith.muttharamar1\\Documents\\programmering\\NäsanöverEprojekt\\Eprojeky\\Eprojeky.csproj": {}
+    "C:\\Users\\namith.muttharamar1\\Documents\\programmering\\NäsanöverEprojekt\\Eprojeky\\Eprojeky.csproj": {}
   },
   "projects": {
-    "c:\\Users\\namith.muttharamar1\\Documents\\programmering\\NäsanöverEprojekt\\Eprojeky\\Eprojeky.csproj": {
+    "C:\\Users\\namith.muttharamar1\\Documents\\programmering\\NäsanöverEprojekt\\Eprojeky\\Eprojeky.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\namith.muttharamar1\\Documents\\programmering\\NäsanöverEprojekt\\Eprojeky\\Eprojeky.csproj",
+        "projectUniqueName": "C:\\Users\\namith.muttharamar1\\Documents\\programmering\\NäsanöverEprojekt\\Eprojeky\\Eprojeky.csproj",
         "projectName": "Eprojeky",
-        "projectPath": "c:\\Users\\namith.muttharamar1\\Documents\\programmering\\NäsanöverEprojekt\\Eprojeky\\Eprojeky.csproj",
+        "projectPath": "C:\\Users\\namith.muttharamar1\\Documents\\programmering\\NäsanöverEprojekt\\Eprojeky\\Eprojeky.csproj",
         "packagesPath": "C:\\Users\\namith.muttharamar1\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\namith.muttharamar1\\Documents\\programmering\\NäsanöverEprojekt\\Eprojeky\\obj\\",
+        "outputPath": "C:\\Users\\namith.muttharamar1\\Documents\\programmering\\NäsanöverEprojekt\\Eprojeky\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

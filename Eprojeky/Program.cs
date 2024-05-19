@@ -6,7 +6,7 @@ class Program
     {
         
         Console.WriteLine("Welocome to my game");
-        System.Console.WriteLine("\nYour goal is to defeat the monster!");
+        System.Console.WriteLine("Your goal is to defeat the monster!");
 
         Player player = new Player("Hero", 100, 20); //sets players health 
         Enemy enemy = new Enemy("Villian", 150, 15);  //sets enemy health 
