@@ -1,4 +1,5 @@
 ﻿﻿using System;
+using Eprojeky;
 
 class Program
 {
@@ -10,7 +11,8 @@ class Program
 
         Player player = new Player("Hero", 100, 20); //sets players health 
         Enemy enemy = new Enemy("Villian", 150, 15);  //sets enemy health 
-        
+        Boss boss = new Boss("Boss", 300, 15);  //sets boss health 
+
 
 
         Console.WriteLine($"Your {player.Name} has {player.Health} hp.");
@@ -52,6 +54,12 @@ while (player.Health > 0 && enemy.Health > 0) //when the hero and the villian is
     if (enemy.Health <= 0) // if the villans hp is/below 0 the game ends
     {
         Console.WriteLine("The villian is deafeated congratulations !");
+
+        Console.WriteLine("Now you need to fight the boss");
+        
+        Console.WriteLine($"{boss.Name} has {boss.Health} hp.\n");
+
+
         break;
     }
 
@@ -79,7 +87,8 @@ while (player.Health > 0 && enemy.Health > 0) //when the hero and the villian is
     static int GetPlayerChoice()
     {
         int choice;
-        while (!int.TryParse(Console.ReadLine(), out choice))
+        while (!int.TryParse(Console.ReadLine(), out choice)) //loop until a valid integer is entered
+
         {
             Console.WriteLine("Incorrect value, please try entering a number");
         }
