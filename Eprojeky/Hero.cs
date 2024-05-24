@@ -1,26 +1,30 @@
-﻿public class Player : Character 
-{
-    public Player(string name, int health, int damage) : base(name, health, damage) //constructor for the player class that takes name, health, and damage as parameters
+﻿ class Player : Character
     {
-    }
+        public int AttackPower { get; set; }
 
-    public override void Attack(Character target, int accuracy) //this method takes a target character and an accuracy value as parameters
-    {
-        base.Attack(target, accuracy);  //call the base class's Attack method
-    }
-
-    public void Heal() 
-    {
-        int healingAmount = 20;  //define the amount of health to restore
-
-     
-        if (Health + healingAmount > 100)
+        public Player(string name, int health, int attackPower)
+            : base(name, health)
         {
-            healingAmount = 100 - Health;   // this adjust the healing amount to avoid exceeding maximum health
+            AttackPower = attackPower;
         }
 
-        Health += healingAmount;
-        Console.WriteLine($"{Name} is healing {healingAmount} hp!");
-        Console.WriteLine($"{Name} has {Health} hp.\n");
+        public void Attack(Character character, int accuracy)
+        {
+            Random rnd = new Random();
+            if (rnd.Next(0, 100) < accuracy)
+            {
+                character.Health -= AttackPower;
+                Console.WriteLine($"{Name} attacks {character.Name} for {AttackPower} damage!");
+            }
+            else
+            {
+                Console.WriteLine($"{Name} missed the attack!");
+            }
+        }
+
+        public void Heal()
+        {
+            Health += 20;
+            Console.WriteLine($"{Name} heals for 20 hp!");
+        }
     }
-}
